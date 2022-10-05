@@ -1,8 +1,18 @@
-# Klipper configuration - BigTreeTech SKR Pro v1.1 with TMC 2209
+# Klipper configuration - Edner 5 / Hemera / BigTreeTech SKR Pro v1.2 with TMC 2209 
 
-The configuration file is fine-tuned for my heavily modified Ender 5 printer. And by heavily modified I mean litereally everything is customized on my printer, from the obvious things such as board, steppers, hotends, feeder or fans to mur subtly like Z-axis rod stabilization, linear rails, belt tensioners and frame brackets.
+My Ender 5 is not really an Ender 5 anymore, hence its nickname "FrankenEnder". The board, Pi and PSU have been moved to the back and mounted on a solid wooden plate.
 
-So, please use it as inspiration to set up your printer but just don't blindly apply this config to your specific setup. 
+### other notably changes
+- Frame: Ender 5 with metal frame brackets and Z-Axis stabilization
+- Board SKR Pro v1.2 with TMC2209 (UART)
+- Bed: Keenovo 350W (heater), ultra-flat aluminium build plate, WhamBam FlexPlate PEX sheet
+- Hotend: E3D Hemera with 0.4mm NozzleX
+- Stepper: UsongShine 17HS4401 & ACT 17HS5425B24 dual-axis
+- PrinterMods XY Linear Rails Mod
+- full metal belt tensioner
+- Super Struts
+
+Feel free to use my config file(s) as an inspiration. Don't just download this to your Klipper instance and hope it will magically work, because it won't!
 
 **Happy printing!**
 
